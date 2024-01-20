@@ -1,7 +1,7 @@
 use world;
 # Task 1
--- Using count, get the number of cities in the USA
-SELECT COUNT(*) AS "Number of Cities in US"
+-- Using count, get the number of cities in the USA
+SELECT COUNT(*) AS "Number of Cities in USA"
 FROM city
 WHERE CountryCode = "USA";
 
@@ -12,7 +12,7 @@ FROM country
 WHERE Code = "ARG";
 
 # Task 3
--- Using ORDER BY, LIMIT, what country has the highest life expectancy?
+-- Using ORDER BY, LIMIT, what country has the highest life expectancy?
 SELECT Name AS Country, LifeExpectancy AS "Life Expectancy"
 FROM country
 ORDER BY LifeExpectancy DESC
@@ -28,13 +28,13 @@ WHERE city.Name LIKE "F%"
 LIMIT 25;
 
 # Task 5
--- Create a SQL statement to display columns Id, Name, Population from the city table and limit results to first 10 rows only.
+-- Create a SQL statement to display columns Id, Name, Population from the city table and limit results to first 10 rows only.
 SELECT ID, Name AS City, Population
 FROM city
 LIMIT 10;
 
 # Task 6
--- Create a SQL statement to find only those cities from city table whose population is larger than 2000000.
+-- Create a SQL statement to find only those cities from city table whose population is larger than 2000000.
 SELECT city.Name AS City, city.Population, country.Name AS Country
 FROM city
 INNER JOIN country 
