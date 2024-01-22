@@ -7,38 +7,40 @@ This project is a comprehensive analysis tool for a world dataset featuring info
 
 ### Technologies Used
 MySQL
-[Any other technologies or tools used]
+
 ### Features
 Query information about cities and countries
 Sort data by population, area, GDP, etc.
-Advanced filtering options to pinpoint specific data
-Installation and Setup
-Install MySQL: [Installation guide link]
-Import the world dataset: instructions or command here
+Advanced filtering options to pinpoint specific data.
+
+### Installation and Setup
+Install MySQL: [Download link](https://dev.mysql.com/downloads/installer/)
+
+Import the world dataset: [Setting up the world database](https://dev.mysql.com/doc/world-setup/en/)
+
 Configure your environment: additional steps if necessary
+
 ### Usage
-sql
-Copy code
+Some query examples
 ```
--- Example of a basic query
-SELECT * FROM cities WHERE population > 1000000;
+-- Using count, get the number of cities in the USA
+SELECT COUNT(*) AS "Number of Cities in US"
+FROM city
+WHERE CountryCode = "USA";
 
--- Sorting example
-SELECT * FROM countries ORDER BY GDP DESC;
-
--- Filter example
-SELECT * FROM cities WHERE country = 'CountryName';
+-- Find out what the population and average 
+-- life expectancy for people in Argentina (ARG) is.
+SELECT Name AS Country, Population, LifeExpectancy AS "Life Expentancy"
+FROM country
+WHERE Code = "ARG";
 ```
 
 ### Contribution Guidelines
 Contributions are welcome! Please adhere to this project's code of conduct.
 
-### License
-This project is licensed under the [Your License Here].
-
 ### Contact Information
-For support or queries, reach out to me at [Your Email/Contact Information].
+For support or queries, reach out to me at [Contact Information](mailto:albertevieites@gmail.com).
 
 ### Acknowledgements
-Special thanks to [Individual/Organization/Resource] for their invaluable assistance in this project.
+Special thanks to @yusufsjustit for their invaluable assistance in this project.
 
