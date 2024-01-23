@@ -6,7 +6,7 @@ World Dataset Analysis with MySQL
 This project is a comprehensive analysis tool for a world dataset featuring information about cities, countries, and their populations. It utilizes MySQL for efficient data querying, sorting, and filtering, offering valuable insights for researchers, data analysts, and enthusiasts interested in global demographic trends.
 
 ### Technologies Used
-MySQL
+MySQL, Python
 
 ### Features
 Query information about cities and countries
@@ -17,8 +17,6 @@ Advanced filtering options to pinpoint specific data.
 Install MySQL: [Download link](https://dev.mysql.com/downloads/installer/)
 
 Import the world dataset: [Setting up the world database](https://dev.mysql.com/doc/world-setup/en/)
-
-Configure your environment: additional steps if necessary
 
 ### Usage
 Some query examples
@@ -35,12 +33,16 @@ FROM country
 WHERE Code = "ARG";
 ```
 
+### Diagram
+Diagram of the relation between different tables
+![Diagram](assets/diagram.png)
+
 ### Contribution Guidelines
 Contributions are welcome! Please adhere to this project's code of conduct.
 
 ### Contact Information
-For support or queries, reach out to me at [Contact Information](mailto:albertevieites@gmail.com).
+For support or queries, reach out to me at [my email address](mailto:albertevieites@gmail.com).
 
 ### Acknowledgements
-Special thanks to @yusufsjustit for their invaluable assistance in this project.
+Special thanks to [Yusuf Satilmis](https://github.com/yusufsjustit) for their invaluable assistance in this project.
 
