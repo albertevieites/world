@@ -70,14 +70,15 @@ Index:
 This project is built using MySQL 8.0 and Python 3.10. Additional data analysis is performed using Python libraries such as Pandas for data manipulation and Seaborn for data visualization.
 
 ### Features
-Query information about cities and countries
-Sort data by population, area, GDP, etc.
-Advanced filtering options to pinpoint specific data.
+Query information about cities and countries. Sort data by population, area, GDP, etc.
+Advanced filtering options to pinpoint specific data. Users can apply complex filters to their queries, such as population density ranges, GNP thresholds, or even surface area parameters, to extract tailored insights from the global dataset.
 
 ### Installation and Setup
 Install MySQL: [Download link](https://dev.mysql.com/downloads/installer/)
 
 Import the world dataset: [Setting up the world database](https://dev.mysql.com/doc/world-setup/en/)
+
+After installing MySQL from the provided link, set up the world database by running the world.sql script included in the repository. This script creates all necessary tables and imports initial data. 
 
 ### Usage
 Some query examples
