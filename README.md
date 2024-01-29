@@ -81,19 +81,19 @@ Import the world dataset: [Setting up the world database](https://dev.mysql.com/
 After installing MySQL from the provided link, set up the world database by running the world.sql script included in the repository. This script creates all necessary tables and imports initial data. 
 
 ### Usage
-Some query examples
-```
--- Using count, get the number of cities in the USA
-SELECT COUNT(*) AS "Number of Cities in US"
-FROM city
-WHERE CountryCode = "USA";
 
--- Find out what the population and average 
--- life expectancy for people in Argentina (ARG) is.
-SELECT Name AS Country, Population, LifeExpectancy AS "Life Expentancy"
-FROM country
-WHERE Code = "ARG";
 ```
+-- Discover the top 5 most populous cities in Europe 
+SELECT city.Name, city.Population 
+FROM city 
+INNER JOIN country ON city.CountryCode = country.Code
+WHERE country.Continent = 'Europe' 
+ORDER BY city.Population DESC 
+LIMIT 5;
+```
+This query lists the top 5 most populous cities in Europe, showcasing the project's capability to perform complex, continent-specific queries.
+
+![Query Screenshot](assets/top5-query.png)
 
 ### Diagram
 Diagram of the relation between different tables
