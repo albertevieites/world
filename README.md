@@ -1,15 +1,13 @@
 
 # WORLD
-World Dataset Analysis with MySQL
 
-### Description
 This project is a comprehensive analysis tool for a world dataset featuring information about cities, countries, and their populations. It utilizes MySQL for efficient data querying, sorting, and filtering, offering valuable insights for researchers, data analysts, and enthusiasts interested in global demographic trends.
 
-### Dataset
+## Dataset
 The World Dataset Analysis tool leverages a comprehensive dataset, originally sourced from Statistics Finland, http://www.stat.fi/worldinfigures. It provides a wealth of information about global demographics. It's designed to assist researchers and enthusiasts in uncovering patterns and insights into population dynamics, urbanization trends, and socio-economic factors on a global scale.
 
-#### Attribute Information
-**Country**
+### Attribute Information
+**Country Table**
 
 | Attribute       | Data Type | Description  |
 |-----------------|-----------|--------------|
@@ -31,7 +29,7 @@ The World Dataset Analysis tool leverages a comprehensive dataset, originally so
 
 Key Constraint:
 - PRIMARY KEY (`Code`) - Ensures each country is uniquely identified by its code.
-
+ 
 **City**
 
 | Attribute    | Data Type | Description  |
@@ -66,21 +64,21 @@ Index:
 - INDEX on `CountryCode` (to optimize search operations and joins with the `country` table).
 
 
-### Technologies Used
+## Technologies Used
 This project is built using MySQL 8.0 and Python 3.10. Additional data analysis is performed using Python libraries such as Pandas for data manipulation and Seaborn for data visualization.
 
-### Features
+## Features
 Query information about cities and countries. Sort data by population, area, GDP, etc.
 Advanced filtering options to pinpoint specific data. Users can apply complex filters to their queries, such as population density ranges, GNP thresholds, or even surface area parameters, to extract tailored insights from the global dataset.
 
-### Installation and Setup
+## Installation and Setup
 Install MySQL: [Download link](https://dev.mysql.com/downloads/installer/)
 
 Import the world dataset: [Setting up the world database](https://dev.mysql.com/doc/world-setup/en/)
 
 After installing MySQL from the provided link, set up the world database by running the world.sql script included in the repository. This script creates all necessary tables and imports initial data. 
 
-### Usage
+## Usage
 
 ```
 -- Discover the top 5 most populous cities in Europe 
@@ -95,16 +93,19 @@ This query lists the top 5 most populous cities in Europe, showcasing the projec
 
 ![Query Screenshot](assets/top5-query.png)
 
-### Diagram
+## Diagram
 Diagram of the relation between different tables
 ![Diagram](assets/diagram.png)
 
-### Contribution Guidelines
-Contributions are welcome! Please adhere to this project's code of conduct.
+## Visual Representation
+The included population distribution plot provides a visual representation of population densities across different continents. The x-axis represents continents, while the y-axis indicates population density. This plot can be especially useful for visualizing and comparing urbanization levels across continents.
 
-### Contact Information
+## Contribution Guidelines
+To contribute, please fork the repository and submit a pull request with your suggested changes. Ensure your code adheres to the PEP 8 style guide, and clearly describe the proposed changes and their benefits in your pull request description. For major changes, please open an issue first to discuss what you would like to change.
+
+## Contact Information
 For support or queries, reach out to me at [my email address](mailto:albertevieites@gmail.com).
 
-### Acknowledgements
+## Acknowledgements
 Special thanks to [Yusuf Satilmis](https://github.com/yusufsjustit) for their invaluable assistance in this project.
 
