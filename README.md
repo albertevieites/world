@@ -67,7 +67,7 @@ Index:
 
 
 ### Technologies Used
-MySQL, Python
+This project is built using MySQL 8.0 and Python 3.10. Additional data analysis is performed using Python libraries such as Pandas for data manipulation and Seaborn for data visualization.
 
 ### Features
 Query information about cities and countries
