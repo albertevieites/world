@@ -126,6 +126,10 @@ The histogram displays the distribution of life expectancy across the countries 
 4. **Life Expectancy by Region**: The boxplot shows the distribution of life expectancy among different regions. The lines inside the boxes indicate the median life expectancy, while the boxes themselves represent the interquartile range (between the 25th and 75th percentile). The dots are outliers that do not fit within the typical range for each region. This chart highlights differences in life expectancy among regions, which may be indicative of differences in economic development, access to medical services, nutrition, among other factors.
 
 ![Life expectancy by region plot](assets/plots/expectancy_region.png)
+<br></br>
+5. **Correlation Heatmap**: The heatmap of correlation coefficients provides a dense visual summary of how different variables in the dataset are related to each other. This plot helps in identifying pairs of variables that have a strong positive or negative correlation, enabling a deeper understanding of the interdependencies within the data.
+
+![Correlation heatmap plot](assets/plots/correlation.png)
 
 ## Contribution Guidelines
 To contribute, please fork the repository and submit a pull request with your suggested changes. Ensure your code adheres to the PEP 8 style guide, and clearly describe the proposed changes and their benefits in your pull request description. For major changes, please open an issue first to discuss what you would like to change.
