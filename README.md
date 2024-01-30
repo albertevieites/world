@@ -107,7 +107,21 @@ Diagram of the relation between different tables
 </p>
 
 ## Visual Representation
-The included population distribution plot provides a visual representation of population densities across different continents. The x-axis represents continents, while the y-axis indicates population density. This plot can be especially useful for visualizing and comparing urbanization levels across continents.
+In this section, I dug deep into the graphical representation of our dataset, offering a visual perspective of the intricate relationships and distributions within the data. These visualizations not only enhance our understanding of the dataset but also enable us to observe patterns and insights that might not be apparent from the raw data alone.
+
+1. **Histogram of Life Expectancy**:
+The histogram displays the distribution of life expectancy across the countries in the dataset. Most countries seem to have a life expectancy between 60 and 80 years, although there's also a significant amount with a life expectancy below 60 years.
+![Life expectancy plot](assets/plots/life_expectancy.png)
+<br></br>
+2. **Relation between population and GNP**: 
+The histogram displays the distribution of life expectancy across the countries in the dataset. Most countries seem to have a life expectancy between 60 and 80 years, although there's also a significant amount with a life expectancy below 60 years.
+![Relation between population and GNP plot](assets/plots/population_gnp.png)
+<br></br>
+3. **GNP by Continent**: The bar chart shows the Gross National Product (GNP) average for countries on each continent. There's significant variation in the average GNP among different continents, which might reflect differences in economic status, resource availability, policies, among other factors.
+![GNP by continent plot](assets/plots/average_gnp_continent.png)
+<br></br>
+4. **Life Expectancy by Region**: The boxplot shows the distribution of life expectancy among different regions. The lines inside the boxes indicate the median life expectancy, while the boxes themselves represent the interquartile range (between the 25th and 75th percentile). The dots are outliers that do not fit within the typical range for each region. This chart highlights differences in life expectancy among regions, which may be indicative of differences in economic development, access to medical services, nutrition, among other factors.
+![Life expectancy by region plot](assets/plots/expectancy_region.png)
 
 ## Contribution Guidelines
 To contribute, please fork the repository and submit a pull request with your suggested changes. Ensure your code adheres to the PEP 8 style guide, and clearly describe the proposed changes and their benefits in your pull request description. For major changes, please open an issue first to discuss what you would like to change.
