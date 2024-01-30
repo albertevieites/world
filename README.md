@@ -91,11 +91,20 @@ LIMIT 5;
 ```
 This query lists the top 5 most populous cities in Europe, showcasing the project's capability to perform complex, continent-specific queries.
 
-![Query Screenshot](assets/top5-query.png)
+[//]: # (![Query Screenshot]&#40;assets/top5-query.png&#41;)
+
+<p align="center">
+<img src="assets/top5-query.png" width="300">
+</p>
 
 ## Diagram
 Diagram of the relation between different tables
-![Diagram](assets/diagram.png)
+
+[//]: # (![Diagram]&#40;assets/diagram.png&#41;)
+
+<p align="center">
+<img src="assets/diagram.png" width="70%">
+</p>
 
 ## Visual Representation
 The included population distribution plot provides a visual representation of population densities across different continents. The x-axis represents continents, while the y-axis indicates population density. This plot can be especially useful for visualizing and comparing urbanization levels across continents.
