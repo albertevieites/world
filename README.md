@@ -132,11 +132,11 @@ The histogram displays the distribution of life expectancy across the countries 
 ![Correlation heatmap plot](assets/plots/correlation.png)
 
 ## Contribution Guidelines
-To contribute, please fork the repository and submit a pull request with your suggested changes. Ensure your code adheres to the PEP 8 style guide, and clearly describe the proposed changes and their benefits in your pull request description. For major changes, please open an issue first to discuss what you would like to change.
+To contribute, please fork the repository and submit a pull request with your suggested changes. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Contact Information
 For support or queries, reach out to me at [my email address](mailto:albertevieites@gmail.com).
 
 ## Acknowledgements
-Special thanks to [Yusuf Satilmis](https://github.com/yusufsjustit) for their invaluable assistance in this project.
+Special thanks to [Yusuf Satilmis](https://github.com/yusufsjustit) for his invaluable assistance in this project.
 
