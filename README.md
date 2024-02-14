@@ -1,7 +1,7 @@
 
 # WORLD
 
-This project is a comprehensive analysis tool for a world dataset featuring information about cities, countries, and their populations. It uses MySQL for efficient data querying, sorting, and filtering, offering valuable insights for researchers, data analysts, and enthusiasts interested in global demographic trends.
+This project serves as a comprehensive analytical tool for a global dataset, featuring detailed information on cities, countries, and their respective populations. Leveraging the power of MySQL for efficient data querying, sorting, and filtering. After conducting a thorough exploratory data analysis, I have incorporated insightful graphs using Seaborn, a Python data visualisation library. These graphs provide intuitive insights and allow for a deeper interpretation of the patterns and correlations within the demographic data under scrutiny. 
 
 ## Dataset
 The World Dataset Analysis tool leverages a comprehensive dataset, originally sourced from Statistics Finland, http://www.stat.fi/worldinfigures. It provides a wealth of information about global demographics. It's designed to assist researchers and enthusiasts in uncovering patterns and insights into population dynamics, urbanization trends, and socio-economic factors on a global scale.
