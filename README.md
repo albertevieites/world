@@ -125,7 +125,7 @@ The histogram displays the distribution of life expectancy across the countries 
 
 3. **GNP by Continent**: The bar chart shows the Gross National Product (GNP) average for countries on each continent. There's significant variation in the average GNP among different continents, which might reflect differences in economic status, resource availability, policies, among other factors.
 
-![GNP by continent plot](assets/plots/average_gnp_continent.png)
+![GNP by continent plot](assets/plots/average_gnp.png)
 
 ***
 
